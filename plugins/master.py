@@ -84,5 +84,5 @@ async def account_login(bot, m):
         await editable.delete()
         await masterdl.process_links(links, raw_text, raw_text2, token, b_name, MR, channel_id, bot, m, path, thumb, Credit)
     except Exception as e:
-        await await editable.edit(f"❌ Error: {str(e)}")
+        await editable.edit(f"❌ Error: {str(e)}")
         return
